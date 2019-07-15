@@ -7,7 +7,7 @@ def line(array)
     sentence = "The line is currently: "
     array.each_with_index do |person, i|
       sentence << "#{i+1}. #{person} "
-      puts sentence
     end
+    puts sentence
   end
 end
