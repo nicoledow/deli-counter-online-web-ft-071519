@@ -21,7 +21,7 @@ def now_serving(line_array)
   if line_array.size == 0
     puts "There is nobody waiting to be served!"
   else
-    puts
+    puts "Currently serving #{line_array[0].}"
     
   end
     
