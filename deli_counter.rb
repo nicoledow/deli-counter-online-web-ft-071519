@@ -16,3 +16,7 @@ def take_a_number(line_array, person)
   line_array << person
   puts "Welcome, #{person}. You are number #{line_array.index(person) + 1} in line."
 end
+
+def now_serving(line_array)
+  
+end
