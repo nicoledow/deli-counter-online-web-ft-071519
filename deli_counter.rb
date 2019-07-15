@@ -6,7 +6,7 @@ def line(array)
   if array.size > 0
     sentence = "The line is currently: "
     array.each_with_index do |person, i|
-      sentence << "#{i+1}. #{person} "
+      sentence << " #{i+1}. #{person}"
     end
      puts sentence
   end
