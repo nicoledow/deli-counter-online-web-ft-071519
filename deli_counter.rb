@@ -8,6 +8,6 @@ def line(array)
     array.each_with_index do |person, i|
       sentence << "#{i+1}. #{person} "
     end
-     sentence
+     puts sentence
   end
 end
