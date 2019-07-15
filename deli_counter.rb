@@ -18,5 +18,8 @@ def take_a_number(line_array, person)
 end
 
 def now_serving(line_array)
-  
+  if line_array.size == 0
+    puts "The line is currently empty."
+  else
+    
 end
